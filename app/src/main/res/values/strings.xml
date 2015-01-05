@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Elm327</string>
+    <string name="action_scan">Scan around &#8230;</string>
+
+    <string name="dialog_title_1">Paired devices</string>
+    <string name="dialog_title_2">Scan in progress &#8230;</string>
+    <string name="dialog_search_btn">Scan devices around &#8230;</string>
+    <string name="dialog_close_btn">Close</string>
+    
+    <string name="menu_send_cmd">Send Default Commands</string>
+    <string name="menu_clr_screen">Clear Screen Logs</string>
+    <string name="menu_obd_mode">Toggle Simulator/OBD mode</string>
+    <string name="menu_obd_clear_code">Clear Code</string>
+
+    <string name="BT_connection_status">Connection Status</string>
+    <string name="BT_connecting">Connecting &#8230;</string>
+    <string name="BT_status_not_connected">Not connected</string>
+    <string name="BT_status_connected_to">Connected to</string>
+
+    <string name="no_command">Please enter a command</string>
+    <string name="bt_not_available">Bluetooth device is unavailable</string>
+
+    <string name="imageView">imageView</string>
+
+</resources>

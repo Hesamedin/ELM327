@@ -1,0 +1,57 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/tvConnectionStatus"
+        android:gravity="center"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/BT_connection_status"
+        style="@style/connection_status_title"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llEditor"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/etCommandPrompt"
+            android:inputType="text"
+            android:maxLines="4"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ibSendMessage"
+            android:src="@android:drawable/ic_media_play"
+            android:contentDescription="@string/imageView"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvMonitor"
+        android:layout_above="@+id/llEditor"
+        android:layout_below="@id/tvConnectionStatus"
+        android:background="#FFECDB"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideOverlay"
+        android:fadeScrollbars="true"
+        android:fadingEdge="vertical"/>
+
+
+</RelativeLayout>
